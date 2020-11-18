@@ -1,0 +1,7 @@
+{
+  "since" : "01/11/2020", 
+  "codes_ape": ["14.13Z", "70.22Z"],
+  "destination" : "./dev",
+  "output_filename" : "fermes.csv",
+  "refines" : ["etatadministratifetablissement=Fermé"]
+}

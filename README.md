@@ -1,6 +1,6 @@
-# User Manual
+# Manual
 
-## Run Sirene CLI
+## Lancement de Sirene CLI
 
 Windows
 
@@ -30,7 +30,7 @@ Options:
 -h, --help display help for command
 ```
 
-## Configuration file
+## Fichier Configuration
 
 Le fichier de configuration est constitué des propriétés suivantes:
 
@@ -70,3 +70,7 @@ Le fichier de configuration est constitué des propriétés suivantes:
 Le fichier de configuration va extraire de la base SIRENE tous les éléments dont la date de création de l'établissement est supérieur au `01/11/2020` parmi les codes APE `14.13Z`, `70.22Z` et étant `Actif`.
 
 Le résultat est stocké dans le fichier `./test/actifs.csv`.
+
+Deux fichiers de configuration sont fournis
+- [config_actifs.json](config_actifs.json): récupérer l'ensemble des établiseements actifs créés depuis le 01/11/2020
+- [config_fermes.json](config_actifs.json): récupérer l'ensemble des établissements fermés depuis le 01/11/2020
